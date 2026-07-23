@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+host: https://www.arteria.ai
+# All standard /.well-known discovery documents probed; none published (valid negative result).
+# No public API host resolves (api.arteria.ai / developer.arteria.ai do not exist;
+# docs.arteria.ai is gated behind Cloudflare Access).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

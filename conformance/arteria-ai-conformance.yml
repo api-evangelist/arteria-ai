@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.arteria.ai/
+# Arteria AI publishes its security/compliance posture on its public marketing site.
+# No public API/OpenAPI exists, so cross-cutting API standards (oauth2/oidc/rfc9457/etc.)
+# cannot be derived. Captured here are the named certifications the provider publishes.
+standards:
+- id: soc2-type2
+  name: SOC 2 Type II
+  conforms: true
+  evidence: 'arteria.ai homepage states "SOC II Type 2 and ISO 27001 certifications"'
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: true
+  evidence: 'arteria.ai homepage states "SOC II Type 2 and ISO 27001 certifications"'
+compliance_program:
+  published: true
+  certifications:
+  - SOC 2 Type II
+  - ISO 27001
+  source: https://www.arteria.ai/
