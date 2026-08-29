@@ -12,6 +12,9 @@ description: 'Arteria AI is an enterprise AI company for financial services that
   portal; this profile captures the company identity, domain-security posture, and published compliance
   certifications.'
 url: https://raw.githubusercontent.com/api-evangelist/arteria-ai/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It does not publish a public API or developer portal; this profile captures the company identity, domain-security posture, and published compliance certifications."
 deliveryModel:
   model: unknown
   open_source: false
