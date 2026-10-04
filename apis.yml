@@ -50,11 +50,11 @@ modified: '2026-07-18'
 tags:
 - Company
 - Legal Tech
-- Financial-Services
+- Financial Services
 - Document Automation
 - Contract Lifecycle Management
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Onboarding
 - Regulatory Reporting
 - Derivatives
@@ -69,6 +69,7 @@ tags_raw:
 - Onboarding
 - Regulatory Reporting
 - Derivatives
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
